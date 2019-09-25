@@ -29,5 +29,9 @@ namespace ProjectManager.DataAccessLayer
         public virtual DbSet<Projects> Projects1 { get; set; }
         public virtual DbSet<Tasks> Tasks1 { get; set; }
         public virtual DbSet<Users> Users1 { get; set; }
+        public object Projects { get; set; }
+        public object Users { get; set; }
+        public object ParentTasks { get; set; }
+        public object Tasks { get; set; }
     }
 }
